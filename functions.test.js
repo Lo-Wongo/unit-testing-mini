@@ -24,12 +24,12 @@ describe("Math functions:", () => {
         expect(functions.multiply(10, 10)).toEqual(100);
     });
 
-    test("divide() should return a dynamic result based on two number parameters.", () => {
+    test("divide() should return a dynamic quotient based on two number parameters.", () => {
         expect(functions.divide(100, 2)).toEqual(50);
         expect(functions.divide(50, 2)).toEqual(25);
     });
 
-    test("subtract() should return a dynamic result based on two number parameters.", () => {
+    test("subtract() should return a dynamic difference based on two number parameters.", () => {
         expect(functions.subtract(100, 50)).toEqual(50);
         expect(functions.subtract(50, 25)).toEqual(25);
     });
